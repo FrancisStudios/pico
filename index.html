@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title></title>
-    <script src="./src/index-transform.module.js"></script>
-  </head>
-  <body>
-  
-    <script>
-      // You can also require other files to run in this process
-      require('./renderer.js')
-    </script>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="./src/style.css">
+
+</head>
+
+<body>
+  <canvas id="screen" width="640px" height="640px"></canvas>
+  <script>
+    const { bootMeUpSenpai } = require('./src/engine/index.js');
+
+    bootMeUpSenpai();
+
+  </script>
+</body>
+
 </html>

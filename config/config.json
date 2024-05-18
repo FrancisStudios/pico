@@ -2,13 +2,13 @@
     "App":{
         "window":{
             "title": "PICO System Emulator | by FrancisStudios",
-            "width": 800,
-            "height": 600,
+            "width": 640,
+            "height": 640,
             "menu": false
         },
 
         "developer": {
-            "activated": false
+            "activated": true
         }
     }
 }

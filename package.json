@@ -11,6 +11,6 @@
   "author": "Francis Stuidos",
   "license": "",
   "devDependencies": {
-    "electron": "^5.0.0"
+    "electron": "^28.0.0"
   }
 }
