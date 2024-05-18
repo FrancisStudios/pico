@@ -1,0 +1,16 @@
+{
+  "name": "Pico System Emulator",
+  "version": "1.0.0",
+  "description": "A retro-inspired game system emulation / runtime environment",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/FrancisStudios/RR_DOS",
+  "keywords": [],
+  "author": "Francis Stuidos",
+  "license": "",
+  "devDependencies": {
+    "electron": "^5.0.0"
+  }
+}
