@@ -6,6 +6,8 @@ const bootMeUpSenpai = () => {
     document.addEventListener('DOMContentLoaded', () => {
         indexTransformBootstrap();
         const { canvas, screen } = initScreenGibHandlerBackPls();
+
+        console.log(canvas, screen);
     });
 }
 
